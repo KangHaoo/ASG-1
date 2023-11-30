@@ -33,7 +33,7 @@ function submitPayment() {
     if (cardNumber && expiryDate && cvv) {
         const price = document.getElementById('originalPrice').textContent
         alert('Payment of $' + price + ' submitted!');
-        window.location.href = "../../index.html"
+        location.href = "../../index.html"
     } else {
         alert('Fill in the blanks!');
     }
