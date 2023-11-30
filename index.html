@@ -11,12 +11,43 @@
 <body>
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="/">
-             <img class="logo" src="ASG1_wireframe/logo.png" alt="logo">
-            SunriseClick
+            <!-- Logo -->
+            <a href="/" id="navbar-logo">
+                <!-- image goes here -->
+                <img src="image/logo.png" alt="Logo" class="img-logo">
+                SunriseClick
             </a>
+
+            <!-- Make it mobile responsive -->
+            <div class="navbar-switch" id="mobile-dropdown">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- Link to the different pages in navbar -->
+            <ul class="navbar-pages">
+                <li class="navbar-items">
+                    <a href="#" class="navbar-links">Badminton</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="navbar-links">Contact us</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="navbar-links">Testimonies</a>
+                </li>
+
+                <!-- all the icons -->
+                <li class="navbar-icon">
+                    <a href="#" class="navbar-links">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" class="cart"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
+    
+
     
     <script src="script.js"></script>
 </body>
