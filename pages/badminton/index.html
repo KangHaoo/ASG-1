@@ -3,32 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Catalog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <title>SunriseClick</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <a href="/" id="navbar-logo">
+                <!-- image goes here -->
+                <img src="../../image/logo.png" alt="Logo" class="img-logo">
+                SunriseClick
+            </a>
+
+            <!-- Make it mobile responsive -->
+            <div class="navbar-switch" id="mobile-dropdown">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- Link to the different pages in navbar -->
+            <ul class="navbar-pages">
+                <li class="navbar-items">
+                    <a href="#" class="navbar-links">Badminton</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="../contact-me/index.html" class="navbar-links">Contact us</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="navbar-links">Testimonies</a>
+                </li>
+
+                <!-- all the icons -->
+                <li class="navbar-icon">
+                    <a href="#" class="navbar-links">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" class="cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
         <h1>Product Catalog</h1>
     </header>
 
     <section id="electronics">
-        <h2>Electronics</h2>
+        <h2>Aerus</h2>
         <div class="product">
-            <img src="electronics_product1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Description of Product 1.</p>
-            <span>$99.99</span>
+            <img src="image/badminton shoe.png" alt="Product 1">
+            <h3>Shoe</h3>
+            <p>DTechnology: Double Russel Mesh, Durable Skin Light, Hexagrip Sole, Power Cushion, Round Sole, Toe Assist Shape</p>
+            <span>$174</span>
         </div>
         <!-- Add more products in the same way -->
     </section>
 
     <section id="clothing">
-        <h2>Clothing</h2>
+        <h2>Arcsaber 11 pro</h2>
         <div class="product">
-            <img src="clothing_product1.jpg" alt="Clothing 1">
-            <h3>Clothing 1</h3>
-            <p>Description of Clothing 1.</p>
-            <span>$49.99</span>
+            <img src="image/arcs.png" alt="Clothing 1">
+            <h3>Racket</h3>
+            <p>Technology: Box Frame, Energy Boost Cap, Isometric, Solid Feel Core, Super HMG, Super Slim long Shaft, T-Anchor, Ultra PEF            </p>
+            <span>$274</span>
+        </div>
+        <!-- Add more clothing items in the same way -->
+    </section>
+    <section id="clothing">
+        <h2>Astrox 100zz</h2>
+        <div class="product">
+            <img src="image/astrox.png" alt="Clothing 1">
+            <h3>Racket</h3>
+            <p>Aero-Box Frame, Black Micro Core, Energy Boost Cap/Plus, Hyper Slim Shaft, Isometric, Namd, Nanometric, New Built In T-Joint, New Grommet Pattern, Rotational Generator System, Solid Feel Core</p>
+            <span>$322.90</span>
+        </div>
+        <!-- Add more clothing items in the same way -->
+    </section>
+    <section id="clothing">
+        <h2>Yonex badminton shoe power cushion 65Z 2 wide</h2>
+        <div class="product">
+            <img src="image/power.png" alt="Clothing 1">
+            <h3>Shoe</h3>
+            <p>Technology: Double Raschel Mesh, Hexagrip Sole, Power Cushion +, Power Graphite Lite, Round Sole, Syncro-Fit Insole</p>
+            <span>$179.90</span>
         </div>
         <!-- Add more clothing items in the same way -->
     </section>
@@ -38,5 +96,6 @@
     <footer>
         <p>&copy; 2023 Your Company</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
