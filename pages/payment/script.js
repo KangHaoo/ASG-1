@@ -24,7 +24,7 @@ function submitPromocode() {
         alert('Wrong promocode');
     }
 }
-
+//funnction to show the submittion of the payment by using if else//
 function submitPayment() {
     const cardNumber = document.getElementById('cardNumber').value;
     const expiryDate = document.getElementById('expiryDate').value;

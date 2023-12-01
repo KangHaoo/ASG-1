@@ -1,11 +1,11 @@
 const menu = document.querySelector('#mobile-dropdown');
 const menuLinks = document.querySelector('.navbar-pages');
-
+//code to active the dropdown bar for the mobile function//
 menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 });
-
+//code to allow slides shows in the main page//
 let slideIndex = 0;
 
 function showSlides() {

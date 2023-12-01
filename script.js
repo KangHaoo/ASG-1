@@ -1,3 +1,4 @@
+//codes to allow dropdown bar//
 const menu = document.querySelector('#mobile-dropdown');
 const menuLinks = document.querySelector('.navbar-pages');
 
@@ -6,6 +7,7 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 });
 
+//allow the slides show to loop//
 let slideIndex = 0;
 
 function showSlides() {

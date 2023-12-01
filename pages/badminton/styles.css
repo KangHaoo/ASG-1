@@ -1,14 +1,15 @@
+/*style of the fonts*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/*style of the background colour to be black*/
 body{
     background-color: black;
 }
-
+/*style of the navbar*/
 .navbar {
     background-color: #333;
     padding: 15px;
@@ -71,7 +72,7 @@ body{
     align-items: center;
     color: #fff;
 }
-
+/*change to colour of the button have it is hover over*/
 .navbar-links:hover{
     color: pink;
     transition: all 0.3s ease;
@@ -86,11 +87,11 @@ body{
     padding: 0 1rem;
     width: 100%;
 }
-
+/*Cart colour*/
 .cart {
     color: #fff;
 }
-
+/* change the size of the website into mobile fonts*/
 @media screen and (max-width: 960px) {
     .navbar-container {
         display: flex;
@@ -159,6 +160,7 @@ body{
         cursor: pointer;
     }
 }
+/*style for each category below*/
 header {
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -203,6 +205,7 @@ button {
     border-radius: 4px;
 }
 
+/*allow the colour of the buttom to change after hovering it over*/
 button:hover {
     background-color: #45a049;
 }

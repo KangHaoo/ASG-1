@@ -1,14 +1,15 @@
+/*style for the fonts of the words*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/*style to change the background into black*/
 body{
     background-color: black;
 }
-
+/*style used for the navbar*/
 .navbar {
     background-color: #333;
     padding: 15px;
@@ -71,7 +72,7 @@ body{
     align-items: center;
     color: #fff;
 }
-
+/*style to use when the mouse hover over the navbar*/
 .navbar-links:hover{
     color: pink;
     transition: all 0.3s ease;
@@ -90,7 +91,7 @@ body{
 .cart {
     color: #fff;
 }
-
+/*code use to resize to mobile use*/
 @media screen and (max-width: 960px) {
     .navbar-container {
         display: flex;
@@ -159,6 +160,7 @@ body{
         cursor: pointer;
     }
 }
+/* style th headers,section, product and footer*/
 header {
     background-color: #000000;
     color: rgb(255, 255, 255);

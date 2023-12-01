@@ -1,10 +1,11 @@
+/*code to show the white background*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
-
+/* codes to show the box of the payment*/
 .payment-container {
     max-width: 400px;
     margin: 50px auto;
@@ -13,7 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/*style of each details*/
 .product-details {
     background-color: #f0f0f0;
     padding: 10px;
@@ -33,14 +34,14 @@ label {
     display: block;
     margin-bottom: 5px;
 }
-
+/*style to show the input*/
 input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-
+/*style of the button*/
 button {
     background-color: #4caf50;
     color: white;
@@ -50,11 +51,11 @@ button {
     width: 100%;
     border-radius: 4px;
 }
-
+/*style when the mouse hover the button*/
 button:hover {
     background-color: #45a049;
 }
-
+/*style to show the promode after and before*/
 .promocode {
     display: flex;
     height: 100%;
